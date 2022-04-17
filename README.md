@@ -1,0 +1,2 @@
+# StringRegE
+ ElseIf StringIsXDigit($sStr) Then         $iH = 4.0000     ElseIf StringIsAlpha($sStr) Then         $iH = 4.7004         If $fCase Then             If StringRegExp($sStr, '[a-z]+') And StringRegExp($sStr, '[A-Z]+') Then $iH = 5.7004         EndIf     ElseIf StringIsAlNum($sStr) Then         $iH = 5.1699         If $fCase Then             If StringRegExp($sStr, '[a-z]+') And StringRegExp($sStr, '[A-Z]+') Then $iH = 5.9542         EndIf
